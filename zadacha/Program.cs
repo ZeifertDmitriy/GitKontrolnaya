@@ -30,6 +30,13 @@ string[] Mass3(string[] array)
     }
     return array3;
 }
-
-string[] array = { "hello", "2", "world", ":-)" };       // задаем массив с произольными значениями
+string[] array = new string[4];                             // задаем массив с произольными значениями
+Console.WriteLine("Введите первую строку: ");               
+array[0] = Console.ReadLine();                              // ввод первой строки массива
+Console.WriteLine("Введите вторую строку: ");
+array[1] = Console.ReadLine();                              // ввод второй строки массива
+Console.WriteLine("Введите третью строку: ");
+array[2] = Console.ReadLine();                              // ввод третей строки массива
+Console.WriteLine("Введите четвертую строку: ");
+array[3] = Console.ReadLine();                              // ввод четвертой строки массива
 Print(Mass3(array));
