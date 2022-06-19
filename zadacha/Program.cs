@@ -10,4 +10,5 @@ for (int i = 0; i < array.Length; i++)                   // узнаем кол�
         kolstr++;
     }
 }
+string[] array3 = new string[kolstr];                    // создание массива с найденым количеством строк
 Console.WriteLine(kolstr);
