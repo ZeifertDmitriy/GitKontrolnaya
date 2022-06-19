@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Написать программу, которая из имеющегося массива строк формирует массив из строк, длина которых меньше либо равна 3 символам.
+// Первоначальный масиив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма.
+
+string[] array = {"hello","2","world",":-)"};
+//string[] array = {"1234","1567","-2","computer science"};
+//string[] array = {"Russia","Denmark","Kazan"};
