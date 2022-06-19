@@ -11,4 +11,14 @@ for (int i = 0; i < array.Length; i++)                   // узнаем кол�
     }
 }
 string[] array3 = new string[kolstr];                    // создание массива с найденым количеством строк
+for (int i = 0; i < array3.Length; i++)                  // заполнение массива стоками с количеством символов меньше либо равным 3
+{
+    for (int j = 0; j < array.Length; j++)
+    {
+        if (array[i].Length <= 3)
+        {
+            array3[i] = array[j];
+        }
+    }
+}
 Console.WriteLine(kolstr);
